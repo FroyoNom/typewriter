@@ -4,7 +4,7 @@ const characterFunc = () => {
   for (const char of sentence) {
     setTimeout(() => {
       process.stdout.write(char);
-    }, 1000 + 50 * result);
+    }, 100 + 50 * result);
     result += 1;
   }
   setTimeout(() => {
